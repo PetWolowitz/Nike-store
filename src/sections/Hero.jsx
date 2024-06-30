@@ -23,9 +23,10 @@ const Hero = () => {
             <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
         </h1>
             <p className="font-montserrat text-slate-gray text-lg leading-8  sm:max-w-sm mt-6 mb-14">
-                Discover stylish Nike arrivals, quality comfort,  and innovation for your active life
+            <p>Discover stylish Nike arrivals, quality comfort, and innovation for your active life. Explore the latest trends and technologies that Nike has to offer, ensuring you stay ahead in both performance and style. Whether you're hitting the gym, running, or simply embracing an active lifestyle, Nike's newest selections provide the perfect blend of functionality and fashion.</p>
+
             </p>
-            <Button  label="Shop Now" iconURL={arrowRight}/>
+            <Button  label="Start Shopping" iconURL={arrowRight}/>
             <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
                 {statistics.map((stat) => (
                     <div key={stat.label}>
